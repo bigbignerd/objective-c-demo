@@ -36,10 +36,20 @@ int main(int argc, const char * argv[]) {
 //        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa"
 //                                           valueInDollars:100
 //                                             serialNumber:@"A1B2C"];
-        for(int i = 0;i < 10;i++){
-            BNRItem *item = [BNRItem randomItem];
-            [items addObject:item];
-        }
+//        for(int i = 0;i < 10;i++){
+//            BNRItem *item = [BNRItem randomItem];
+//            [items addObject:item];
+//        }
+
+        BNRItem *backpack = [[BNRItem alloc] initWithItemName:@"backpack"];
+        [items addObject:backpack];
+        
+        BNRItem *calculator = [[BNRItem alloc] initWithItemName:@"Calculator"];
+        [items addObject:calculator];
+        
+        backpack.containedItem = calculator;
+        backpack = nil;
+        calculator = nil;
         for (BNRItem *item in items) {
             NSLog(@"%@", item);
         }
