@@ -20,10 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    CGRect firstFrame = CGRectMake(30, 30, 70, 70);
+//    CGRect firstFrame = CGRectMake(30, 30, 70, 70);
+    CGRect firstFrame = self.window.bounds;
 //    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
     BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
-    firstView.backgroundColor = [UIColor redColor];
+//    firstView.backgroundColor = [UIColor redColor];
     [self.window addSubview:firstView];
     
     //second view
