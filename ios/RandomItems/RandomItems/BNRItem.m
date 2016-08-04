@@ -22,7 +22,7 @@
     // Note: The % operator, called the modulo operator, gives
     // you the remainder. So adjectiveIndex is a random number
     // from 0 to 2 inclusive.
-    NSInteger adjectiveIndex = arc4random() % [randomAdjectiveList count];
+    NSInteger adjectiveIndex = arc4random() % [randomAdjectiveList count];//0到 数组长度-1 间的随机数
     NSInteger nounIndex = arc4random() % [randomNounList count];
     
     // Note that NSInteger is not an object, but a type definition
