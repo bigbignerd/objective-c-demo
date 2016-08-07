@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262023241D556E070030852C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 262023231D556E070030852C /* logo.png */; };
 		D4EA9F831D507AC10057D1A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA9F821D507AC10057D1A8 /* main.m */; };
 		D4EA9F861D507AC10057D1A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA9F851D507AC10057D1A8 /* AppDelegate.m */; };
 		D4EA9F891D507AC10057D1A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA9F881D507AC10057D1A8 /* ViewController.m */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262023231D556E070030852C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../../ios4esolutions/00-Resources/logo.png"; sourceTree = "<group>"; };
 		D4EA9F7E1D507AC10057D1A8 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EA9F821D507AC10057D1A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4EA9F841D507AC10057D1A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D4EA9F851D507AC10057D1A8 /* AppDelegate.m */,
 				D4EA9F871D507AC10057D1A8 /* ViewController.h */,
 				D4EA9F881D507AC10057D1A8 /* ViewController.m */,
+				262023231D556E070030852C /* logo.png */,
 				D4EA9F8D1D507AC10057D1A8 /* Assets.xcassets */,
 				D4EA9F921D507AC10057D1A8 /* Info.plist */,
 				D4EA9F811D507AC10057D1A8 /* Supporting Files */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262023241D556E070030852C /* logo.png in Resources */,
 				D4EA9F8E1D507AC10057D1A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +479,7 @@
 				D4EA9FAD1D507AC10057D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4EA9FAE1D507AC10057D1A8 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				D4EA9FB01D507AC10057D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4EA9FB11D507AC10057D1A8 /* Build configuration list for PBXNativeTarget "HypnosisterUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				D4EA9FB31D507AC10057D1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
