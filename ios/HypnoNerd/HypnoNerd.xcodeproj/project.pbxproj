@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B21AF01D748D090019060B /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B21AEC1D748D090019060B /* Hypno.png */; };
+		26B21AF11D748D090019060B /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B21AED1D748D090019060B /* Hypno@2x.png */; };
+		26B21AF21D748D090019060B /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B21AEE1D748D090019060B /* Time.png */; };
+		26B21AF31D748D090019060B /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B21AEF1D748D090019060B /* Time@2x.png */; };
 		D42249AC1D66F88000177CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42249AB1D66F88000177CD5 /* main.m */; };
 		D42249AF1D66F88000177CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42249AE1D66F88000177CD5 /* AppDelegate.m */; };
 		D42249B21D66F88000177CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42249B11D66F88000177CD5 /* ViewController.m */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B21AEC1D748D090019060B /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		26B21AED1D748D090019060B /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		26B21AEE1D748D090019060B /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		26B21AEF1D748D090019060B /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 		D42249A71D66F88000177CD5 /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42249AB1D66F88000177CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D42249AD1D66F88000177CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +130,10 @@
 				D42249EA1D67060700177CD5 /* BNRReminderViewController.m */,
 				D4224A2B1D6708DC00177CD5 /* BNRReminderViewController.xib */,
 				D42249B31D66F88100177CD5 /* Main.storyboard */,
+				26B21AEC1D748D090019060B /* Hypno.png */,
+				26B21AED1D748D090019060B /* Hypno@2x.png */,
+				26B21AEE1D748D090019060B /* Time.png */,
+				26B21AEF1D748D090019060B /* Time@2x.png */,
 				D42249B61D66F88100177CD5 /* Assets.xcassets */,
 				D42249BB1D66F88100177CD5 /* Info.plist */,
 				D42249AA1D66F88000177CD5 /* Supporting Files */,
@@ -258,8 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B21AF31D748D090019060B /* Time@2x.png in Resources */,
+				26B21AF21D748D090019060B /* Time.png in Resources */,
 				D4224A2C1D6708DC00177CD5 /* BNRReminderViewController.xib in Resources */,
 				D42249B71D66F88100177CD5 /* Assets.xcassets in Resources */,
+				26B21AF01D748D090019060B /* Hypno.png in Resources */,
+				26B21AF11D748D090019060B /* Hypno@2x.png in Resources */,
 				D42249B51D66F88100177CD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +522,7 @@
 				D42249D61D66F88100177CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42249D71D66F88100177CD5 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +531,7 @@
 				D42249D91D66F88100177CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42249DA1D66F88100177CD5 /* Build configuration list for PBXNativeTarget "HypnoNerdUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +540,7 @@
 				D42249DC1D66F88100177CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
